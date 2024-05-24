@@ -1,0 +1,14 @@
+body{
+    background-color: #a8dbdb;
+}
+h1{
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+h2{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0c264d;
+}
