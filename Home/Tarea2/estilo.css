@@ -1,0 +1,55 @@
+*{
+    margin: 0; /*deshabilita los margenes por defecto*/
+    padding: 0; /*establece la cantidad de espacio entre el contenido y los bordes de un elemento*/
+    box-sizing: border-box; /*controla cómo se calcula el ancho y alto de un elemento.*/
+    --color1: #07b0f2;
+    --color2: #05C7F2;
+    --color3: #f2c029;
+    --color4: #f2ae2e;
+    --color5: #f2f2f2;
+}
+main{
+    width: 800px; /*establece el ancho de un elemento*/
+    margin: 20px;
+}
+#cabecera{
+    display: flex; /*establece un contenedor flexible en el que los elementos hijos se organizan en una sola dirección (ya sea horizontal o vertical)*/
+    flex-direction: row; /*define la dirección*/
+    justify-content: space-between; /*distribuye el espacio entre y alrededor de los items flex*/
+    align-items: center; /*indica la alineación de un elemento dentro del bloque que lo contiene*/
+    background-color: var(--color1); /*establece el color de fondo de un elemento*/
+    padding: 10px;
+    margin: 5px;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 5px;
+}
+#menu div{
+    padding: 10px;
+}
+#contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+.contenido{
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid var(--color3); /*define el color de los cuatro bordes de un elemento.*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*define una fuente*/
+}
+h3{
+    text-align: center; /*alinea el texto*/
+    color: var(--color4);
+    background-color: var(--color5);
+}
+#pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--color1);
+}
