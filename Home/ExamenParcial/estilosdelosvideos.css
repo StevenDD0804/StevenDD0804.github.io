@@ -1,0 +1,88 @@
+body{
+    font-family: "Mukta", sans-serif;
+    padding: 26px;
+    margin: 0 auto; 
+    --color1: black;
+}
+
+.contenedor h1{
+    font-size: 72px;
+    font-weight: 150;
+    text-align: center;
+    margin: 0 auto 10px;
+}
+
+nav{
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.menu{
+    padding: 28px 0px;
+    text-align: center;
+}
+
+.menu a{
+    margin: 0 5px;
+    padding: 10px 35px;
+    color: var(--color1);
+    list-style: none;
+    text-decoration: none;
+    font-weight: 50;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+
+}
+
+.menu a:hover {
+    border-bottom: 2px solid var(--color1);
+}
+
+.menu a.menu-video {
+    border-bottom: 2px solid var(--color1);
+}
+
+.contenido{
+    margin: 0 auto;
+    max-width: 700px;
+    text-align: justify;
+}
+
+.subtitulo h3{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.subtitulo p{
+    font-size: 20px;
+}
+
+.video1{
+text-align: center;
+}
+
+
+.pie{
+    margin: 20px 5px;
+    text-align: center;
+}
+
+.fa-brands.fa-facebook {
+    color: var(--color1);
+}
+
+.fa-brands.fa-x-twitter {
+    color: var(--color1);
+}
+
+.fa-brands.fa-steam {
+    color: var(--color1);
+}
+
+.fa-brands.fa-youtube{
+    color: var(--color1);
+}
+

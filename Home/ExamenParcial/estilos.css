@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('imagenes/hollow\ knigth\ fondo.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Mukta", sans-serif;
+    --color1: white;
+}
+.contenedor{
+    color: var(--color1);    
+    padding: 40px 80px 0px;
+}
+
+.contenedor h1{
+    font-size: 90px;
+    margin: 100px 0px;
+}
+
+.titulo{
+    text-align: center;
+    margin: 50px 0 150px 0;
+}
+
+.texto{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.contenedor p{
+    font-weight: 50;
+    font-size: 25px;
+}
+
+.menu{
+    text-align: center;
+}
+.menu a{
+    margin: 0 5px;
+    padding: 10px 35px;
+    color: var(--color1);
+    list-style: none;
+    text-decoration: none;
+    font-weight: 50;
+    font-size: 30px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid var(--color1);
+}
+
+.menu a.home {
+    border-bottom: 2px solid var(--color1);
+}
+
+.pie {
+    margin: 10px 0;
+    text-align: center;
+}
+.pie a{
+    margin: 0 5px;
+}
+
+.fa-brands.fa-facebook {
+    color: var(--color1);
+}
+
+.fa-brands.fa-x-twitter {
+    color: var(--color1);
+}
+
+.fa-brands.fa-steam {
+    color: var(--color1);
+}
+
+.fa-brands.fa-youtube{
+    color: var(--color1);
+}
