@@ -1,0 +1,35 @@
+#logo i{
+    font-size: 40px;
+}
+
+#experiencia-text {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#iconos{
+    font-size: 30px;
+}
+
+.card-body a{
+    margin: 2px;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 12px 8px rgba(0,0,0,0.1);
+}
+
+#testimonios h2{ 
+    margin: 0px 0px 30px 0px;
+}
+
+#testimonios p{
+    margin: 0 auto;
+    max-width: 600px;
+}
+#contacto a{
+    margin: 5px;
+}
